@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Ahmed | Cyber Security & Digital Forensics</title>
+<meta name="description" content="Muhammad Ahmed, BSc Cyber Security and Digital Forensics student at Leeds Beckett University, seeking a placement.">
+<style>
+:root{
+  --ink:#0c111b; --panel:#131a28; --line:#26324a;
+  --text:#e8ecf4; --muted:#9aa6bd; --amber:#f0b44c;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--text);font:1rem/1.65 var(--sans)}
+a{color:var(--amber)}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;padding-top:1rem;padding-bottom:1rem}
+.brand{font-family:var(--serif);font-size:1.05rem;color:var(--text);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:1.1rem;font-size:.95rem}
+nav a:hover{color:var(--text)}
+.hero{padding:4.5rem 0 3.5rem}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.6rem,8vw,4.6rem);line-height:1.05;margin:0 0 1.25rem;letter-spacing:-.01em}
+.hero p{max-width:34rem;color:var(--muted);font-size:1.15rem;margin:0 0 .9rem}
+.status{display:inline-block;border-left:3px solid var(--amber);padding:.15rem 0 .15rem .8rem;color:var(--text);margin-top:.6rem}
+section{padding:2.6rem 0;border-top:1px solid var(--line)}
+h2{font-family:var(--serif);font-weight:400;font-size:1.7rem;margin:0 0 1.4rem}
+.chain{list-style:none;margin:0;padding:0 0 0 1.4rem;border-left:2px solid var(--line)}
+.chain li{position:relative;padding:0 0 1.5rem}
+.chain li:last-child{padding-bottom:0}
+.chain li::before{content:"";position:absolute;left:-1.78rem;top:.5rem;width:.7rem;height:.7rem;border-radius:50%;background:var(--ink);border:2px solid var(--muted)}
+.chain li.now::before{border-color:var(--amber);background:var(--amber)}
+.chain strong{display:block;font-weight:600}
+.chain span{color:var(--muted);font-size:.95rem}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.skills div{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1rem 1.1rem}
+.skills h3{margin:0 0 .4rem;font-size:1rem;font-weight:600}
+.skills p{margin:0;color:var(--muted);font-size:.95rem}
+.note{color:var(--muted);font-size:.9rem;margin-top:1rem}
+footer{border-top:1px solid var(--line);padding:2rem 0 3rem;color:var(--muted);font-size:.9rem}
+@media (max-width:520px){nav a{margin:0 .9rem 0 0}.hero{padding:3rem 0 2.5rem}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Muhammad Ahmed</a>
+    <nav aria-label="Sections">
+      <a href="#background">Background</a>
+      <a href="#skills">Skills</a>
+      <a href="#onchain">On-chain</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="hero">
+      <h1>Muhammad Ahmed</h1>
+      <p>Second-year BSc Cyber Security and Digital Forensics student at Leeds Beckett University. I progressed from a Distinction in my Foundation Degree at University Centre Leeds.</p>
+      <p class="status">Seeking a placement or entry-level role in cyber security or digital forensics.</p>
+    </div>
+
+    <section id="background">
+      <h2>Education and certifications</h2>
+      <ol class="chain">
+        <li><strong>Foundation Degree, University Centre Leeds</strong><span>Completed with a Distinction</span></li>
+        <li><strong>Cisco Networking Academy: Cyber Threat Management</strong><span>November 2025</span></li>
+        <li><strong>Cisco Networking Academy: Endpoint Security</strong><span>March 2026</span></li>
+        <li class="now"><strong>BSc (Hons) Cyber Security and Digital Forensics, Leeds Beckett University</strong><span>In progress, Year 2</span></li>
+      </ol>
+    </section>
+
+    <section id="skills">
+      <h2>Skills and tools</h2>
+      <div class="skills">
+        <div><h3>Digital forensics</h3><p>EnCase, FTK Imager, Autopsy, OS Forensics, Redline, evidence handling and chain of custody</p></div>
+        <div><h3>Security and ethical hacking</h3><p>Kali Linux, Nmap, Metasploit, Wireshark, used in isolated lab environments only</p></div>
+        <div><h3>Network security</h3><p>Cisco Packet Tracer, Cisco IOS, ASA firewalls, ACLs, AAA/RADIUS, IPsec and SSL VPNs</p></div>
+        <div><h3>Databases</h3><p>SQL, PL/SQL, Oracle APEX, MS Access, ER modelling</p></div>
+        <div><h3>Development</h3><p>Java, JavaScript, HTML5, CSS3, Bash, Visual Studio Code</p></div>
+        <div><h3>Systems and planning</h3><p>Linux, VirtualBox, KeePassXC, Jira (Agile/Kanban), Visio</p></div>
+      </div>
+    </section>
+
+    <section id="onchain">
+      <h2>Blockchain and on-chain analysis</h2>
+      <p>I trace fund flows and wallet activity on-chain using Arkham and block explorers such as Etherscan, and I’m keen to build this into blockchain forensics alongside my degree.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>My practice projects and lab write-ups are being added to <a href="https://github.com/ItzAHMEDm">my GitHub profile</a>.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="https://www.linkedin.com/in/ahmed-muhammad-aa9b8930b/">LinkedIn</a> &nbsp;|&nbsp; <a href="https://github.com/ItzAHMEDm">GitHub</a></p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">All security testing is done in isolated lab environments on systems I own or am authorised to test.</div>
+</footer>
+</body>
+</html>
